@@ -11,10 +11,10 @@
 	<!-- DataSource: hsqldb file -->
 	<bean id="myDataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="org.postgresql.Driver" />
-		<property name="url" value="jdbc:postgresql://localhost:5432/skeleton" />
-		<property name="username" value="skeleton" />
-		<property name="password" value="password" />
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost/portingtograils" />
+		<property name="username" value="portingUser" />
+		<property name="password" value="grailsPwd" />
 	</bean>
 
 	<!-- Hibernate -->
@@ -27,7 +27,7 @@
 			<props>
 				<prop key="hibernate.show_sql">false</prop>
 				<prop key="hibernate.hbm2ddl.auto">update</prop>
-				<prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
 			</props>
 		</property>
 	</bean>
