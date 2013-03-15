@@ -1,6 +1,7 @@
 package com.dreamchain.skeleton.web;
 
 
+import com.dreamchain.skeleton.model.User;
 import com.dreamchain.skeleton.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,9 +25,13 @@ public class HomeController {
 	private static Logger log = LoggerFactory.getLogger(HomeController.class);
 
 	
-	@RequestMapping(method=RequestMethod.GET, value={"/", "/home.action"})
+	@RequestMapping(method=RequestMethod.GET, value=["/", "/home.action"])
 	public String showHomePage (ModelAndView mv) {
-		log.info("Hit controller");
+        println( "find all with gorm" )
+        println( User.findAll() )
+        new User(name:'Emil', address:'address', email:'e@e.se').save(flush:true)
+
+        log.info("Hit controller");
         System.out.println("found users: " + userService.findAll().getUsers());
         log.info("found users: " + userService.findAll());
 		

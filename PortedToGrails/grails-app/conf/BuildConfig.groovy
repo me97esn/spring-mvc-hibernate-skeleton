@@ -48,6 +48,7 @@ grails.project.dependency.resolution = {
         runtime ":jquery:1.7.1"
         runtime ":resources:1.1.5"
         compile ':springmvc:0.2'
+//        compile ":functional-test:2.0.RC1"
         build ":tomcat:$grailsVersion"
     }
 }

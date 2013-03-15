@@ -1,0 +1,296 @@
+2013-03-13 15:23:38,928 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.BrowserTestCase.click(BrowserTestCase.groovy:238)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:179)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runners.ParentRunner$run.call(Unknown Source)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:285)
+	at _GrailsTest_groovy$_run_closure4.call(_GrailsTest_groovy)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:243)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:190)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:179)
+	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:82)
+	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+2013-03-13 15:23:38,961 [main] ERROR StackTrace  - Full Stack Trace:
+URL Stack that resulted in groovy.lang.MissingPropertyException: No such property: anchor for class: portedtograils.HomeTests
+---------------
+GET http://www.twitter.com/ Browser content change
+GET https://twitter.com/ Browser content change
+GET http://mobile.twitter.com/ Browser content change
+GET https://mobile.twitter.com/ Browser content change
+GET https://mobile.twitter.com/signup Browser content change
+---------------
+groovy.lang.MissingPropertyException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.BrowserTestCase.click(BrowserTestCase.groovy:238)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:179)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:285)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:243)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:190)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:179)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:82)
+2013-03-13 15:23:38,980 [main] ERROR StackTrace  - Full Stack Trace:
+URL Stack that resulted in groovy.lang.MissingPropertyException: No such property: anchor for class: portedtograils.HomeTests
+---------------
+GET http://www.twitter.com/ Browser content change
+GET https://twitter.com/ Browser content change
+GET http://mobile.twitter.com/ Browser content change
+GET https://mobile.twitter.com/ Browser content change
+GET https://mobile.twitter.com/signup Browser content change
+---------------
+groovy.lang.MissingPropertyException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.BrowserTestCase.click(BrowserTestCase.groovy:238)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:179)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:285)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:243)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:190)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:179)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:82)
+2013-03-13 15:23:39,021 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: com.grailsrocks.functionaltest.FunctionalTestException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:184)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+2013-03-13 15:23:39,022 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: com.grailsrocks.functionaltest.FunctionalTestException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:184)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+2013-03-13 15:23:39,053 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: com.grailsrocks.functionaltest.FunctionalTestException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:184)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+2013-03-13 15:23:39,053 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: com.grailsrocks.functionaltest.FunctionalTestException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:184)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+2013-03-13 15:25:40,727 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.BrowserTestCase.click(BrowserTestCase.groovy:238)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:179)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runners.ParentRunner$run.call(Unknown Source)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:285)
+	at _GrailsTest_groovy$_run_closure4.call(_GrailsTest_groovy)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:243)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:190)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:179)
+	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:82)
+	at org.codehaus.gant.GantMetaClass.invokeMethod(GantMetaClass.java:133)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy:185)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16_closure18.doCall(GantBinding.groovy)
+	at org.codehaus.gant.GantBinding.withTargetEvent(GantBinding.groovy:90)
+	at org.codehaus.gant.GantBinding.this$4$withTargetEvent(GantBinding.groovy)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy:185)
+	at org.codehaus.gant.GantBinding$_initializeGantBinding_closure5_closure16.doCall(GantBinding.groovy)
+2013-03-13 15:25:40,772 [main] ERROR StackTrace  - Full Stack Trace:
+URL Stack that resulted in groovy.lang.MissingPropertyException: No such property: anchor for class: portedtograils.HomeTests
+---------------
+GET http://www.twitter.com/ Browser content change
+GET https://twitter.com/ Browser content change
+GET http://mobile.twitter.com/ Browser content change
+GET https://mobile.twitter.com/ Browser content change
+GET https://mobile.twitter.com/signup Browser content change
+---------------
+groovy.lang.MissingPropertyException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.BrowserTestCase.click(BrowserTestCase.groovy:238)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:179)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:285)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:243)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:190)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:179)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:82)
+2013-03-13 15:25:40,796 [main] ERROR StackTrace  - Full Stack Trace:
+URL Stack that resulted in groovy.lang.MissingPropertyException: No such property: anchor for class: portedtograils.HomeTests
+---------------
+GET http://www.twitter.com/ Browser content change
+GET https://twitter.com/ Browser content change
+GET http://mobile.twitter.com/ Browser content change
+GET https://mobile.twitter.com/ Browser content change
+GET https://mobile.twitter.com/signup Browser content change
+---------------
+groovy.lang.MissingPropertyException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.BrowserTestCase.click(BrowserTestCase.groovy:238)
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:179)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:285)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:243)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:190)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:179)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:82)
+2013-03-13 15:25:40,824 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: com.grailsrocks.functionaltest.FunctionalTestException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:184)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+2013-03-13 15:25:40,824 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: com.grailsrocks.functionaltest.FunctionalTestException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:184)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+2013-03-13 15:25:40,831 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: com.grailsrocks.functionaltest.FunctionalTestException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:184)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
+2013-03-13 15:25:40,831 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: com.grailsrocks.functionaltest.FunctionalTestException: No such property: anchor for class: portedtograils.HomeTests
+	at com.grailsrocks.functionaltest.TestCaseBase.invokeMethod(TestCaseBase.groovy:184)
+	at portedtograils.HomeTests.testSearch(HomeTests.groovy:14)
