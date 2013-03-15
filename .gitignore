@@ -4,6 +4,8 @@ target
 .project
 .settings
 .gradle
+*.class
 bin
 build
+PortedToGrails/target
 target-eclipse
